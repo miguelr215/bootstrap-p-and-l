@@ -1,0 +1,130 @@
+* {
+  font-family: 'Prompt', sans-serif;
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+}
+
+h3 {
+  text-transform: uppercase;
+  text-align: center;
+  margin: 10px auto;
+}
+
+.hero {
+  margin: 20px auto;
+}
+
+.heroTitle {
+  margin-bottom: 10px;
+}
+
+.heroSummary {
+  background-color: rgba(144, 238, 144, 0.5);
+  border-radius: 10px;
+}
+
+.incomeContainer {
+  background-color: rgba(173, 216, 230, 0.5);
+  border-radius: 10px;
+}
+
+.startingBankBal {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.newIncomeGrp {
+  display: flex;
+  flex-direction: column;
+}
+
+.newIncomeGrp input[type='text'] {
+  width: 100%;
+}
+
+.newIncomeGrp button {
+  background-color: rgba(0, 0, 128, 0.5);
+  color: white;
+}
+
+.newIncomeGrp button:hover {
+  background-color: navy;
+  color: silver;
+}
+
+#incomeForm p.small {
+  margin: 5px auto;
+}
+
+.totalIncomeContainer {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.totalIncomeLabel {
+  margin-right: 5px;
+}
+
+.incomeItem {
+  list-style: none;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  border-bottom: 1px solid #777;
+  width: 80%;
+  margin: 0 auto 10px;
+  padding: 10px 0;
+}
+
+.incomeItem p {
+  margin: auto 10px;
+  width: 60%;
+}
+
+.incomeItem span {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.expenseContainer {
+  background-color: rgba(240, 128, 128, 0.5);
+  border-radius: 10px;
+  margin: 20px auto;
+}
+
+.newExpenseGrp {
+  display: flex;
+  flex-direction: column;
+}
+
+.newExpenseGrp input[type='text'] {
+  width: 100%;
+}
+
+.newExpenseGrp button {
+  background-color: rgba(255, 69, 0, 0.5);
+  color: white;
+}
+
+.newExpenseGrp button:hover {
+  background-color: orangered;
+  color: black;
+}
+
+#expensesForm p.small {
+  margin: 5px auto;
+}
+
+.totalExpenseContainer {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.totalExpenseLabel {
+  margin-right: 5px;
+}
