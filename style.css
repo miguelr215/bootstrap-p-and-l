@@ -4,7 +4,7 @@
 
 main {
   width: 100vw;
-  height: 100vh;
+  height: 100%;
 }
 
 h3 {
@@ -69,7 +69,8 @@ h3 {
   margin-right: 5px;
 }
 
-.incomeItem {
+.incomeItem,
+.expenseItem {
   list-style: none;
   display: flex;
   justify-content: left;
@@ -80,12 +81,14 @@ h3 {
   padding: 10px 0;
 }
 
-.incomeItem p {
+.incomeItem p,
+.expenseItem p {
   margin: auto 10px;
   width: 60%;
 }
 
-.incomeItem span {
+.incomeItem span,
+.expenseItem span {
   font-weight: bold;
   text-transform: uppercase;
 }
@@ -127,4 +130,35 @@ h3 {
 
 .totalExpenseLabel {
   margin-right: 5px;
+}
+
+footer {
+  width: 100%;
+  background: #333;
+  color: #999;
+  font-size: 18px;
+  text-align: center;
+  padding: 25px;
+  margin-top: 30px;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+footer img {
+  width: 30px;
+}
+
+.rotate {
+  animation: rotation 6s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
 }
